@@ -7,6 +7,9 @@
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
+  "resolutions": {
+    "gatsby/gatsby-plugin-utils": "3.7.0-alpha-image-cdn-telemetry.29"
+  },
   "dependencies": {
     "gatsby": "^4.8.0",
     "gatsby-plugin-feed": "^4.8.0",

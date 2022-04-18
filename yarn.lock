@@ -5523,6 +5523,27 @@ gatsby-cli@^4.12.1:
     yoga-layout-prebuilt "^1.10.0"
     yurnalist "^2.1.0"
 
+gatsby-core-utils@3.13.0-next.0:
+  version "3.13.0-next.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.13.0-next.0.tgz#56ee32618dcb32fe75186243d1fc325e44cf63ee"
+  integrity sha512-QiFIsb1Yv1COkOwmjhvfxkP3j89Qhzl5LyzuolHJQpMNR4quaY4MvUY33MgWqof6GsTGBOt4nuiSRd35fgiKPA==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    ci-info "2.0.0"
+    configstore "^5.0.1"
+    fastq "^1.13.0"
+    file-type "^16.5.3"
+    fs-extra "^10.0.0"
+    got "^11.8.3"
+    import-from "^4.0.0"
+    lmdb "^2.2.6"
+    lock "^1.1.0"
+    node-object-hash "^2.3.10"
+    proper-lockfile "^4.1.2"
+    resolve-from "^5.0.0"
+    tmp "^0.2.1"
+    xdg-basedir "^4.0.0"
+
 gatsby-core-utils@^3.12.1, gatsby-core-utils@^3.8.2:
   version "3.12.1"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.12.1.tgz#590ec08de7168b086b7d49128732b9ada95b985f"
@@ -5748,15 +5769,15 @@ gatsby-plugin-typescript@^4.12.1:
     "@babel/runtime" "^7.15.4"
     babel-plugin-remove-graphql-queries "^4.12.1"
 
-gatsby-plugin-utils@^3.6.1:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-3.6.1.tgz#31d742e1aded08439ad42959880821e1fc9740cd"
-  integrity sha512-Ebk98v4mxaDWjGFl6VBeNv1zjeJ7UCQ29UTabzY2BpztvUCBHfLVQdMmuaAgzPRn+A3SFVOGpcl++CF0IEl+7A==
+gatsby-plugin-utils@3.7.0-alpha-image-cdn-telemetry.29, gatsby-plugin-utils@^3.6.1:
+  version "3.7.0-alpha-image-cdn-telemetry.29"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-3.7.0-alpha-image-cdn-telemetry.29.tgz#8a73fe05dcd901f3b2abf8e5612c416cadadfdaa"
+  integrity sha512-8xtDKeuNvuOBBzWCSoj+uA5Js4rRyjVur1sZ8hp5IGYuL4hL6wZE672R21WCPjTo1boscF/XEldIjZOl79DEgg==
   dependencies:
     "@babel/runtime" "^7.15.4"
     fs-extra "^10.0.0"
-    gatsby-core-utils "^3.12.1"
-    gatsby-sharp "^0.6.1"
+    gatsby-core-utils "3.13.0-next.0"
+    gatsby-sharp "0.7.0-next.0"
     graphql-compose "^9.0.7"
     import-from "^4.0.0"
     joi "^17.4.2"
@@ -5830,6 +5851,14 @@ gatsby-remark-smartypants@^5.8.0:
     retext "^7.0.1"
     retext-smartypants "^4.0.0"
     unist-util-visit "^2.0.3"
+
+gatsby-sharp@0.7.0-next.0:
+  version "0.7.0-next.0"
+  resolved "https://registry.yarnpkg.com/gatsby-sharp/-/gatsby-sharp-0.7.0-next.0.tgz#30f6a3f1ee6386ea920189e9ae732247d02359c6"
+  integrity sha512-SKwLKDPH8RMTvzl/QgBDu0ZE9FlhmUV5GAgsc2iK66WcUMW+8v3KnNLzK9q8czmbD3Dy6+tNFRZk+jhGdNsVoQ==
+  dependencies:
+    "@types/sharp" "^0.30.0"
+    sharp "^0.30.3"
 
 gatsby-sharp@^0.6.1:
   version "0.6.1"
