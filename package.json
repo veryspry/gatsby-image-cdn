@@ -11,7 +11,7 @@
     "gatsby/gatsby-plugin-utils": "3.7.0-alpha-image-cdn-telemetry.29"
   },
   "dependencies": {
-    "gatsby": "^4.8.0",
+    "gatsby": "4.13.0-alpha-image-cdn-telemetry.21",
     "gatsby-plugin-feed": "^4.8.0",
     "gatsby-plugin-gatsby-cloud": "^4.8.0",
     "gatsby-plugin-google-analytics": "^4.8.0",
